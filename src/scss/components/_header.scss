@@ -1,0 +1,23 @@
+header {
+  background-color: var(--purple);
+  color: var(--white);
+  nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    a {
+      padding: 1rem;
+      color: var(--white);
+    }
+    li a {
+      &.active,
+      &[aria-current="page"] {
+        text-decoration: none;
+        font-weight: bold;
+      }
+      &:first-child {
+        padding-left: 0;
+      }
+    }
+  }
+}

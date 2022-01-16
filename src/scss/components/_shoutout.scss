@@ -1,0 +1,8 @@
+.shoutout {
+  background: lightgoldenrodyellow;
+  /* background-image: url(../images/gatsby-icon.png); */
+  padding: 1rem;
+  &.test {
+    background-color: lightblue;
+  }
+}

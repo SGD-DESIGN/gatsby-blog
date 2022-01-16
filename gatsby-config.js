@@ -46,5 +46,16 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        useResolveUrlLoader: {
+          options: {
+            debug: true,
+            // sourceMap: true, defaults to true when using useResolveUrlLoader
+          },
+        },
+      },
+    },
   ],
 }
